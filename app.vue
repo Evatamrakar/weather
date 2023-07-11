@@ -21,7 +21,7 @@
    
     <div>{{weather.weather[0].description}}</div>
     <h1>{{ weather.main.temp }}°C</h1>
-    <div>Feels like {{ weather.main.feels_like}}°C</div>
+    <div>Feels like {{ weather.main.feels_like}}°C</div>git
 
     <h1>Wind speed {{ weather.wind.speed }} km/hr</h1>
   </div>
