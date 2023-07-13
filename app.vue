@@ -10,11 +10,12 @@
         </select>
       </div>
     </div>
-    <div v-if="pending" >
-      <img src="~assets/Loading.gif" alt="">
     </div>
-    </div>
-    <div>
+    <section v-if="pending" >
+     <img src="~assets/Loading.gif" alt="">
+    </section>
+
+    <section class="container m-auto" v-else>
       <h1>City: {{weather.name }}</h1>
       <h1>{{ weather.weather[0].main }}</h1>
       <div>
@@ -39,7 +40,7 @@
       </div>
 
       <h1>Wind speed {{ weather.wind.speed }} km/hr</h1>
-    </div>
+    </section>
   </div>
 </template>
 
