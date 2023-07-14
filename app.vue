@@ -40,6 +40,7 @@
       </div>
 
       <h1>Wind speed {{ weather.wind.speed }} km/hr</h1>
+      <p>Desgined by Eva Tamrakar</p>
     </section>
   </div>
 </template>
